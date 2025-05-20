@@ -9,15 +9,6 @@
                         </nuxt-link>
                     </div>
                 </div>
-                <div class="header-center d-none d-xl-block">
-                    <div class="vertical-menu-wrapper header-default black-logo--version secondary-font">
-                        <!-- Start Menu -->
-                        <div class="mainmenu-wrapper d-none d-lg-block">
-                            <Navigation />
-                        </div>
-                        <!-- End Menu -->
-                    </div>
-                </div>
                 <div class="header-bottom">
                     <div class="inner">
                         <ul class="social-icon icon-size-medium text-start tooltip-layout padding-bottom-50 text-dark d-none d-sm-block">
@@ -39,7 +30,7 @@
                         </ul>
                         <div class="book-table-btn d-none d-xl-block">
                             <a href="#"> 
-                                Book A Table 
+                                See our All Collection
                                 <div class="border-animate">
                                     <div class="top"></div>
                                     <div class="right"></div>
@@ -50,11 +41,11 @@
                         </div>
 
                         <!-- Start Hamburger -->
-                        <div class="manu-hamber popup-mobile-click d-block d-xl-none gray-version d-block d-xl-none" @click="$emit('togglenav')">
+                        <!-- <div class="manu-hamber popup-mobile-click d-block d-xl-none gray-version d-block d-xl-none" @click="$emit('togglenav')">
                             <div>
                                 <i></i>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- End Hamburger -->
 
                     </div>      
@@ -67,7 +58,7 @@
 <script>
     export default {
         components: {
-            Navigation: () => import('@/components/Navigation'),
+           
         },
     };
 </script>

@@ -1,76 +1,180 @@
 <template>
-    <div class="main-container">
-        <Header @togglenav="navOpen = !navOpen" @toggleSearch="searchOpen = !searchOpen" />
-        <OffCanvasMobileMenu :class="{'show-mobile-menu' : navOpen}" @togglenav="navOpen = !navOpen" />
-        <SearchPopup :class="{'search-popup-open' : searchOpen}" @toggleSearch="searchOpen = !searchOpen" />
-        <HeroBusiness />
-        <ServiceOne id="service" />
-        <PortfolioOne />
-        <CounterUpOne />
-        <TeamOne />
-        <CurveShape>
-            <template v-slot:bgcolor>
-                <path style="fill: #f5f5f5;
-                    stroke-miterlimit:10;" 
-                    d="M3360.5,97.739c-242,0-480-48.375-480-48.375
-                        S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
-                        S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
-            </template>
-        </CurveShape>
-        <TestimonialOne />
-        <BrandLogoCarousel />
-        <BlogOne />
-        <ContactUsOne />
-        <Footer />
+  <div class="main-container">
+    <HeaderVerticalRestaurant />
+    <div class="page-content left-vertical-header">
+      <HeroRestaurant />
+      <!-- Start About Area -->
+      <div class="brook-about-area bg_color--1 ptb--120 ptb-md--80 ptb-sm--60">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-4 col-lg-6 col-md-12">
+              <div class="about-inner authenthick-about pr--30">
+                <div class="brook-section-title-restaurant text-start mb--50">
+                  <h3 class="theme-color">Discover</h3>
+                  <div class="bkseparator--10"></div>
+                  <h3 class="title">our story</h3>
+                </div>
+                <p class="font-size-18 wow move-up">
+                  Serving the local with over 10 years of experience, the
+                  restaurant offers our signatures, Mediterranean and European
+                  cuisines. Our simple philosophy: Delicious food, great value
+                  and excellent service to every customer.
+                </p>
+                <div class="bkseparator--30"></div>
+
+                <div
+                  class="view-more-btn heding-color heading-font theme-color wow move-up"
+                >
+                  <nuxt-link
+                    to=""
+                    class="brook-btn bk-btn-theme btn-sd-size space-between"
+                    >Book A Table</nuxt-link
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 offset-xl-1 col-md-12">
+              <div
+                class="about-thumb text-center text-lg-end mt_md--40 mt_sm--40"
+              >
+                <img
+                  src="/img/restaurant/home-restaurant-about-image.jpg"
+                  alt="Multipurpose"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Area -->
+
+      <!-- Icon Box Area Start -->
+      <div class="brook-icon-boxes-area pb--100 pb_md--80 pb_sm--60">
+        <div class="container">
+          <div class="row">
+            <!-- Single Icon Box Start -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div
+                class="icon-box text-center no-border bg-transparant vibrate-style"
+              >
+                <div class="inner">
+                  <div class="icon">
+                    <img
+                      src="/img/restaurant/home-restaurant-box-image-01.png"
+                      alt="Brook"
+                    />
+                  </div>
+                  <div class="content">
+                    <h5 class="heading heading-h5">Quick Breakfast</h5>
+                    <p>
+                      Start the day with a full and balanced breakfast including
+                      local breakfast specialties.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Single Icon Box End -->
+            <!-- Single Icon Box Start -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div
+                class="icon-box text-center no-border bg-transparant vibrate-style"
+              >
+                <div class="inner">
+                  <div class="icon">
+                    <img
+                      src="/img/restaurant/home-restaurant-box-image-02.png"
+                      alt="Brook"
+                    />
+                  </div>
+                  <div class="content">
+                    <h5 class="heading heading-h5">Healthy Dinner</h5>
+                    <p>
+                      Enjoy your leisurely dinner and go home feeling full, and
+                      satisfied that you spent the night at such a great place.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Single Icon Box End -->
+            <!-- Single Icon Box Start -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div
+                class="icon-box text-center no-border bg-transparant vibrate-style"
+              >
+                <div class="inner">
+                  <div class="icon">
+                    <img
+                      src="/img/restaurant/home-restaurant-box-image-03.png"
+                      alt="Brook"
+                    />
+                  </div>
+                  <div class="content">
+                    <h5 class="heading heading-h5">Innovative</h5>
+                    <p>
+                      We are creative and strive to connect new ideas with
+                      business realities
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Single Icon Box End -->
+          </div>
+        </div>
+      </div>
+      <!-- Icon Box Area End -->
+
+      <!-- Start Product Area -->
+      <div class="brook-product-area pb--150 pb_md--80 pb_sm--60 bg_color--1">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="brook-section-title-restaurant text-center mb--50">
+                <h3 class="theme-color">Mediterranean</h3>
+                <div class="bkseparator--10"></div>
+                <h3 class="title">Cuisine</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <ProductTab />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Product Area -->
+
+      <FooterTwo class="pl-0 pr-0" />
     </div>
+  </div>
 </template>
 
 <script>
-    import Header from "@/components/Header"
-    import OffCanvasMobileMenu from "@/components/OffCanvasMobileMenu"
-    import SearchPopup from "@/components/SearchPopup"
-    import HeroBusiness from "@/components/HeroBusiness"
-    import ServiceOne from "@/components/sections/ServiceOne"
-    import PortfolioOne from "@/components/sections/PortfolioOne"
-    import CounterUpOne from "@/components/sections/CounterUpOne"
-    import TeamOne from "@/components/sections/TeamOne"
-    import TestimonialOne from "@/components/sections/TestimonialOne"
-    import BrandLogoCarousel from "@/components/BrandLogoCarousel"
-    import BlogOne from "@/components/sections/BlogOne"
-    import CurveShape from "@/components/CurveShape"
-    import ContactUsOne from "@/components/ContactUsOne"
-    import Footer from "@/components/Footer"
+export default {
+  components: {
+    HeaderVerticalRestaurant: () =>
+      import("@/components/HeaderVerticalRestaurant"),
+    HeroRestaurant: () => import("@/components/HeroRestaurant"),
+    ProductTab: () => import("@/components/ProductTab"),
+    FooterTwo: () => import("@/components/FooterTwo"),
+  },
 
-    export default {
-        components: {
-            Header,
-            OffCanvasMobileMenu,
-            SearchPopup,
-            HeroBusiness,
-            ServiceOne,
-            PortfolioOne,
-            CounterUpOne,
-            TeamOne,
-            TestimonialOne,
-            BrandLogoCarousel,
-            BlogOne,
-            CurveShape,
-            ContactUsOne,
-            Footer,
-        },
-
-        data() {
-            return {
-                navOpen: false,
-                searchOpen: false
-            }
-        },
-
-        mounted () {
-            document.body.classList.add('template-color-1', 'template-font-2')
-        },
-        unmounted () {
-            document.body.classList.remove('template-color-1', 'template-font-2')
-        }
-    };
+  mounted() {
+    document.body.classList.add(
+      "template-color-24",
+      "template-font-7",
+      "CerebriSans-font"
+    );
+  },
+  unmounted() {
+    document.body.classList.remove(
+      "template-color-24",
+      "template-font-7",
+      "CerebriSans-font"
+    );
+  },
+};
 </script>
