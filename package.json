@@ -13,13 +13,7 @@
     "sass-loader": "^13.3.2"
   },
   "dependencies": {
-    "@types/aos": "^3.0.6",
     "@types/bootstrap": "^5.2.8",
-    "@yeger/vue-masonry-wall": "^3.7.0",
-    "aos": "^2.3.4",
-    "bootstrap": "^5.3.2",
-    "parallax-js": "^3.1.0",
-    "swiper": "^8.4.7",
-    "vue-masonry": "^0.16.0"
+    "bootstrap": "^5.3.2"
   }
 }
