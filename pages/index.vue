@@ -147,29 +147,27 @@
   </div>
 </template>
 
-<script>
-export default {
-  components: {
-    HeaderVerticalRestaurant: () =>
-      import("@/components/HeaderVerticalRestaurant"),
-    HeroRestaurant: () => import("@/components/HeroRestaurant"),
-    ProductTab: () => import("@/components/ProductTab"),
-    FooterTwo: () => import("@/components/FooterTwo"),
-  },
+<script setup lang="ts">
+// Static imports - components are loaded immediately
+import HeaderVerticalRestaurant from '@/components/HeaderVerticalRestaurant.vue'
+import HeroRestaurant from '@/components/HeroRestaurant.vue'
+import ProductTab from '@/components/ProductTab.vue'
+import FooterTwo from '@/components/FooterTwo.vue'
 
-  mounted() {
-    document.body.classList.add(
-      "template-color-24",
-      "template-font-7",
-      "CerebriSans-font"
-    );
-  },
-  unmounted() {
-    document.body.classList.remove(
-      "template-color-24",
-      "template-font-7",
-      "CerebriSans-font"
-    );
-  },
-};
+// Lifecycle management
+onMounted(() => {
+  document.body.classList.add(
+    'template-color-24',
+    'template-font-7',
+    'CerebriSans-font'
+  )
+})
+
+onUnmounted(() => {
+  document.body.classList.remove(
+    'template-color-24',
+    'template-font-7',
+    'CerebriSans-font'
+  )
+})
 </script>
