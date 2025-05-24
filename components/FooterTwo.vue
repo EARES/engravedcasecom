@@ -49,24 +49,27 @@
                             <div class="ft-instagram-list">
                                 <div class="instagram-grid-wrap">
                                     <div class="item-grid grid-style--1" v-for="instagram in instagramPosts" :key="instagram.id">
+                                          <nuxt-link to="https://www.instagram.com/engravedcasecom/" target="_blank">
                                         <div class="thumb">
-                                            <nuxt-link to="https://www.instagram.com/engravedcasecom/" target="_blank">
+                                          
                                                 <img :src="instagram.image" alt="engravedcase instagram">
-                                            </nuxt-link>
+
                                             <div class="item-info">
                                                 <div class="inner">
-                                                    <nuxt-link to="https://www.instagram.com/engravedcasecom/" target="_blank">
+                                                    <div>
                                                         <i class="fas fa-heart"></i>
                                                         {{ instagram.like }}
-                                                    </nuxt-link>
-                                                    <nuxt-link to="https://www.instagram.com/engravedcasecom/" target="_blank">
+                                                    </div>
+                                                    <div>
                                                         <i class="fas fa-comment-dots"></i>
                                                         {{ instagram.comment }}
-                                                    </nuxt-link>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+                                          </nuxt-link>
                                     </div>
+                                  
                                 </div>
                             </div>
                         </div>
