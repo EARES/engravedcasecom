@@ -11,7 +11,7 @@
     "@nuxtjs/seo": "^3.0.3",
     "nuxt": "3.17.4",
     "sass": "^1.89.0",
-    "sass-loader": "^16.0.5"
+    "sass-loader": "^13.3.2"
   },
   "dependencies": {
     "@types/bootstrap": "^5.2.10",
