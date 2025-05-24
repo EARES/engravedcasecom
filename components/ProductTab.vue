@@ -49,26 +49,41 @@
             <div class="col-12 col-sm-6 col-xl-3">
               <div class="product-style-two mt--30">
                 <div class="product-thumbnail">
-                  <div class="thumbnail">
-                    <div class="product-main-image">
-                      <img
-                        src="/img/products/1.webp"
-                        alt="engravedcase persons 1"
-                      />
+                  <nuxt-link
+                    to="https://www.etsy.com/hk-en/listing/4304683304/custom-engraved-metal-and-wood-phone"
+                    target="_blank"
+                  >
+                    <div class="thumbnail">
+                      <div class="product-main-image">
+                        <img
+                          src="/img/products/1.webp"
+                          class="img-fluid rounded"
+                          alt="engravedcase persons 1"
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </nuxt-link>
                 </div>
                 <div class="product-info">
-                  <h4 class="heading heading-h5">
-                    Custom Engraved Metal iPhone Case
-                  </h4>
+                  <nuxt-link
+                    to="https://www.etsy.com/hk-en/listing/4304683304/custom-engraved-metal-and-wood-phone"
+                    target="_blank"
+                  >
+                    <h4 class="heading heading-h5">
+                      Custom Engraved Metal iPhone Case
+                    </h4>
+                  </nuxt-link>
                   <span class="tag">
-                    Custom Engraved Metal and Wood Phone Case with Photo, Text or Design – Personalized iPhone Cover with Steel Frame & MagSafe Compatible Grip
+                    Custom Engraved Metal and Wood Phone Case with Photo, Text
+                    or Design - Personalized iPhone Cover with Steel Frame &
+                    MagSafe Compatible Grip
                   </span>
                   <div class="price">
-                    <span class="new-price theme-color">
-                        iPhone 13 Pro, iPhone 14 Pro, iPhone 15 Pro, iPhone 16 Pro, iPhone 13 Pro Max, iPhone 14 Pro Max, iPhone 15 Pro Max, iPhone 16 Pro Max, iPhone 16, iPhone 16 Plus
-                    </span>
+                    <small class="new-price theme-color">
+                      iPhone 13 Pro, iPhone 14 Pro, iPhone 15 Pro, iPhone 16
+                      Pro, iPhone 13 Pro Max, iPhone 14 Pro Max, iPhone 15 Pro
+                      Max, iPhone 16 Pro Max, iPhone 16, iPhone 16 Plus
+                    </small>
                   </div>
                 </div>
               </div>
@@ -76,26 +91,41 @@
             <div class="col-12 col-sm-6 col-xl-3">
               <div class="product-style-two mt--30">
                 <div class="product-thumbnail">
-                  <div class="thumbnail">
-                    <div class="product-main-image">
-                      <img
-                        src="/img/products/2.jpg"
-                        alt="engravedcase persons 2"
-                      />
+                  <nuxt-link
+                    to="https://www.etsy.com/hk-en/listing/4304284076/custom-engraved-vegan-leather-phone-case"
+                    target="_blank"
+                  >
+                    <div class="thumbnail">
+                      <div class="product-main-image">
+                        <img
+                          src="/img/products/2.jpg"
+                          class="img-fluid rounded"
+                          alt="engravedcase persons 2"
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </nuxt-link>
                 </div>
                 <div class="product-info">
-                  <h4 class="heading heading-h5">
-                    Custom Engraved Vegan Leather iPhone Case
-                  </h4>
+                  <nuxt-link
+                    to="https://www.etsy.com/hk-en/listing/4304284076/custom-engraved-vegan-leather-phone-case"
+                    target="_blank"
+                  >
+                    <h4 class="heading heading-h5">
+                      Custom Engraved Vegan Leather iPhone Case
+                    </h4>
+                  </nuxt-link>
                   <span class="tag">
-                    Custom Engraved Vegan Leather Phone Case with Photo, Text or Design – Personalized iPhone Cover in Color Options and MagSafe Compatible Grip
+                    Custom Engraved Vegan Leather Phone Case with Photo, Text or
+                    Design - Personalized iPhone Cover in Color Options and
+                    MagSafe Compatible Grip
                   </span>
                   <div class="price">
-                    <span class="new-price theme-color">
-                        iPhone 13 Pro, iPhone 14 Pro, iPhone 15 Pro, iPhone 16 Pro, iPhone 13 Pro Max, iPhone 14 Pro Max, iPhone 15 Pro Max, iPhone 16 Pro Max, iPhone 16, iPhone 16 Plus
-                    </span>
+                    <small class="new-price theme-color">
+                      iPhone 13 Pro, iPhone 14 Pro, iPhone 15 Pro, iPhone 16
+                      Pro, iPhone 13 Pro Max, iPhone 14 Pro Max, iPhone 15 Pro
+                      Max, iPhone 16 Pro Max, iPhone 16, iPhone 16 Plus
+                    </small>
                   </div>
                 </div>
               </div>
@@ -115,27 +145,42 @@
             <div class="col-12 col-sm-6 col-xl-3">
               <div class="product-style-two mt--30">
                 <div class="product-thumbnail">
-                  <div class="thumbnail">
-                    <div class="product-main-image">
-                      <img src="/img/products/3.jpg" alt="engravedcase pets" />
+                  <nuxt-link
+                    to="https://www.etsy.com/hk-en/listing/4303625412/custom-engraved-wood-phone-case-with"
+                    target="_blank"
+                  >
+                    <div class="thumbnail">
+                      <div class="product-main-image">
+                        <img
+                          src="/img/products/3.jpg"
+                          class="img-fluid rounded"
+                          alt="engravedcase pets"
+                        />
+                      </div>
                     </div>
-                  </div>
+                  </nuxt-link>
                 </div>
                 <div class="product-info">
-                  <h4 class="heading heading-h5">
-                    Custom Engraved Wood iPhone Case
-                  </h4>
+                  <nuxt-link
+                    to="https://www.etsy.com/hk-en/listing/4303625412/custom-engraved-wood-phone-case-with"
+                    target="_blank"
+                  >
+                    <h4 class="heading heading-h5">
+                      Custom Engraved Wood iPhone Case
+                    </h4>
+                  </nuxt-link>
+
                   <span class="tag">
-                    Custom Engraved Wood Phone Case with Photo, Text or Design - 
+                    Custom Engraved Wood Phone Case with Photo, Text or Design -
                     Personalized iPhone Cover with Natural Finish and MagSafe
                     Compatible Grip
                   </span>
                   <div class="price">
-                    <span class="new-price theme-color">
+                    <small class="new-price theme-color">
                       iPhone 13 Pro, iPhone 14 Pro, iPhone 15 Pro, iPhone 16
                       Pro, iPhone 13 Pro Max, iPhone 14 Pro Max, iPhone 15 Pro
                       Max, iPhone 16 Pro Max
-                    </span>
+                    </small>
                   </div>
                 </div>
               </div>
