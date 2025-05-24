@@ -38,7 +38,7 @@
                   class="about-thumb text-center text-lg-end mt_md--40 mt_sm--40"
                 >
                   <img
-                    src="/img/others/our-studio.jpg"
+                    src="/img/others/our-studio.webp"
                     class="img-fluid rounded"
                     alt="engravedcase about us"
                   />
@@ -61,7 +61,7 @@
                   <div class="inner">
                     <div class="icon">
                       <img
-                        src="/img/logo/quality.png"
+                        src="/img/logo/quality.webp"
                         alt="engravedcase quality"
                       />
                     </div>
@@ -84,7 +84,7 @@
                   <div class="inner">
                     <div class="icon">
                       <img
-                        src="/img/logo/custom.png"
+                        src="/img/logo/custom.webp"
                         alt="engravedcase customisable"
                       />
                     </div>
@@ -107,7 +107,7 @@
                   <div class="inner">
                     <div class="icon">
                       <img
-                        src="/img/logo/premium.png"
+                        src="/img/logo/premium.webp"
                         alt="engravedcase premium"
                       />
                     </div>
@@ -155,7 +155,6 @@
 </template>
 
 <script setup lang="ts">
-// Static imports - components are loaded immediately
 import HeaderVerticalRestaurant from "@/components/HeaderVerticalRestaurant.vue";
 import HeroRestaurant from "@/components/HeroRestaurant.vue";
 import ProductTab from "@/components/ProductTab.vue";
@@ -164,14 +163,6 @@ import FooterTwo from "@/components/FooterTwo.vue";
 // Lifecycle management
 onMounted(() => {
   document.body.classList.add(
-    "template-color-24",
-    "template-font-7",
-    "CerebriSans-font"
-  );
-});
-
-onUnmounted(() => {
-  document.body.classList.remove(
     "template-color-24",
     "template-font-7",
     "CerebriSans-font"

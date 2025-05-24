@@ -98,7 +98,7 @@
                     <div class="thumbnail">
                       <div class="product-main-image">
                         <img
-                          src="/img/products/2.jpg"
+                          src="/img/products/2.webp"
                           class="img-fluid rounded"
                           alt="engravedcase persons 2"
                         />
@@ -152,7 +152,7 @@
                     <div class="thumbnail">
                       <div class="product-main-image">
                         <img
-                          src="/img/products/3.jpg"
+                          src="/img/products/3.webp"
                           class="img-fluid rounded"
                           alt="engravedcase pets"
                         />

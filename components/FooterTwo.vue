@@ -7,7 +7,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="footer-widget text-var--2">
                             <div class="logo">
-                                 <img src="/img/logo/engravedcase_logo_white.png" alt="engraved case logo">
+                                 <img src="/img/logo/engravedcase_logo_white.webp" alt="engraved case logo">
                             </div>
                             <div class="footer-inner">
                                 <p>
@@ -102,37 +102,37 @@
                 instagramPosts: [
                     {
                         "id": 1,
-                        "image": "/img/instagram/insta-6.jpg",
+                        "image": "/img/instagram/insta-6.webp",
                         "like": "1K",
                         "comment": "8"
                     },
                     {
                         "id": 2,
-                        "image": "/img/instagram/insta-2.jpg",
+                        "image": "/img/instagram/insta-2.webp",
                         "like": "6K",
                         "comment": "9"
                     },
                     {
                         "id": 3,
-                        "image": "/img/instagram/insta-3.jpg",
+                        "image": "/img/instagram/insta-3.webp",
                         "like": "3K",
                         "comment": "4"
                     },
                     {
                         "id": 4,
-                        "image": "/img/instagram/insta-4.jpg",
+                        "image": "/img/instagram/insta-4.webp",
                         "like": "1K",
                         "comment": "3"
                     },
                     {
                         "id": 5,
-                        "image": "/img/instagram/insta-1.jpg",
+                        "image": "/img/instagram/insta-1.webp",
                         "like": "2K",
                         "comment": "7"
                     },
                     {
                         "id": 6,
-                        "image": "/img/instagram/insta-5.jpg",
+                        "image": "/img/instagram/insta-5.webp",
                         "like": "1K",
                         "comment": "8"
                     }
