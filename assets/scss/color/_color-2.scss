@@ -463,7 +463,7 @@
         }
 
         .theme-color {
-            color: nth($colorList, $i);
+            color: black;
         }
         .bg_color--2{
             background: nth($colorList, $i);
@@ -474,7 +474,7 @@
         button {
             &.brook-btn {
                 &.bk-btn-theme {
-                    background: nth($colorList, $i);
+                    background: black;
                     color: #fff;
                 }
             }
@@ -687,14 +687,6 @@
             }
         }
 
-        // Social Share
-        .social-share {
-            a {
-                &:hover {
-                    color: nth($colorList, $i);
-                }
-            }
-        }
 
         .social-icon {
             &.tooltip-layout {

@@ -1,119 +1,4 @@
 
-/**************************************************************
-	
-	STYLESHEET INDEXING
-	|
-	|___ Default Styles
-	|	|___ variables
-	|	|___ mixins
-	|	|___ reset
-	|	|___ typography
-	|	|___ animations
-	|	|___ shortcode
-	|
-	|
-	|___Elements Styles
-	|	|___ Button
-	|	|___ section-title
-	|	|___ service
-	|	|___ counterup
-	|	|___ team
-	|	|___ blog-list
-	|	|___ contact
-	|	|___ about
-	|	|___ call-to-action
-	|	|___ motivational-archive
-	|	|___ social
-	|	|___ short-note
-	|	|___ flexible-image-slide
-	|	|___ carousel-slider
-	|	|___ progress-charts
-	|	|___ gradation
-	|	|___ pricing-plans
-	|	|___ career
-	|	|___ contagion
-	|	
-	|
-	|
-	|___Components Styles
-	|	|___ video 
-	|	|___ breadcrumb 
-	|	|___ instagram
-	|	|___ popup
-	|	|___ mega-menu
-	|	|___ typography
-	|	|___ list
-	|	|___ pricing-box
-	|	|___ icon-boxes
-	|	|___ dividers
-	|	|___ message-box
-	|	|___ accordion
-	|	|___ google-map
-	|	|___ rows-column
-	|	|___ info-boxes
-	|
-	|
-	|
-	|___Portfolio Styles
-	|	|___ portfolio-grid 
-	|	|___ portfolio-grid-metro 
-	|	|___ portfolio-caption
-	|	|___ masonry-button
-	|	|___ has-center
-	|	|___ type-hover
-	|	|___ portfolio-details
-	|
-	|
-	|
-	|___Blog Grid Styles
-	|	|___ blog-grid 
-	|	|___ pagination 
-	|	|___ blog-masonry
-	|	|___ blog-grid-no-flex
-	|	|___ blog-grid-minimal
-	|	|___ blog-details
-	|	|___ blog-sidebar
-	|
-	|
-	|
-	|___Shop Sidebar Styles
-	|	|___ table-form
-	|
-	|
-	|
-	|___Template Styles
-	|	|___ header
-	|	|___ sidebar-header
-	|	|___ navigation
-	|	|___ feature
-	|	|___ startup-service
-	|	|___ freelancer
-	|	|___ left-vertical-header
-	|	|___ fullscreen-slider
-	|	|___ sidebar-mobile-menu
-	|	|___ one-page
-	|	|___ foodie
-	|	|___ portfolio-slide
-	|	|___ photo-slide
-	|	|___ vertical-slide
-	|	|___ musician
-	|	|___ product
-	|	|___ presentation
-	|	|___ footer
-	|	|___ Color Variation
-	|	|___ color-2
-	|	|___ font-variation
-	|	|___ preview
-	|	|___ responsive
-	|
-	|___ END STYLE SHEET INDEXING
-
-***************************************************************/
-
-
-/*===================================
-    Default Styles
-====================================*/
 @import 'default/variables';
 @import 'default/mixins';
 @import 'default/reset';
@@ -121,8 +6,6 @@
 @import 'default/animations';
 @import 'default/shortcode';
 @import 'default/spacing';
-@import '../css/ionicons.css';
-@import '../css/linea-font.css';
 @import '../css/animation.css';
 @import '../css/fontawesome.min.css';
 
@@ -223,7 +106,6 @@
 @import 'template/vertical-slide';
 @import 'template/musician';
 @import 'template/product';
-@import 'template/presentation';
 @import 'template/foodie';
 @import 'template/footer';
 

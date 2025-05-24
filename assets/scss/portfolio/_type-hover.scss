@@ -115,10 +115,6 @@
                 transform: scale(.9);
                 border-radius: 50%;
                 transition: all 1.5s;
-
-                &.bg-image--1{
-                    background-image: url(/img/portfolio/type-hover/type-hover-1.jpg)
-                }
             }
 
             &.active {

@@ -4,6 +4,50 @@ export default defineNuxtConfig({
     "bootstrap/dist/css/bootstrap.min.css",
     "@/assets/scss/style.scss",
   ],
+
+   site: {
+    url: "https://engravedcase.com",
+    name: "Engravedcase",
+    description: "Make your iphone truly yours with custom and premium engravings. Order a custom case with your own design.",
+    defaultLocale: "en",
+  },
+
+
+  app: {
+    head: {
+      title: "Make your phone truly yours",
+      meta: [
+        { name: "msapplication-TileColor", content: "#2b5797" },
+        { name: "application-name", content: "Engravedcase" },
+        { name: "apple-mobile-web-app-title", content: "Engravedcase" },
+        { name: "theme-color", content: "#ffffff" },
+      ],
+      link: [
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: "/favicon/favicon-16x16.png",
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: "/favicon/favicon-32x32.png",
+        },
+        {
+          rel: "apple-touch-icon",
+          sizes: "180x180",
+          href: "/favicon/apple-touch-icon.png",
+        },
+        {
+          rel: "manifest",
+          href: "/favicon/site.webmanifest",
+        },
+      ],
+    },
+  },
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -13,9 +57,10 @@ export default defineNuxtConfig({
       },
     },
   },
-   nitro: {
-        devServer: {
-          watch: ['./src']
-        }
-    },
+
+  // modules: ["@nuxtjs/seo"],
+
+  compatibilityDate: "2025-05-24",
+
+  modules: ["@nuxtjs/seo"],
 });

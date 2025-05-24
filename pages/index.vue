@@ -1,9 +1,12 @@
 <template>
   <div class="main-container">
+        <h1 class="d-none">engravedcase</h1>
+
     <HeaderVerticalRestaurant />
     <div class="page-content left-vertical-header">
       <HeroRestaurant />
-      <!-- Start About Area -->
+      <div class="position-relative bg-white" style="z-index: 9999999999;">
+        <!-- Start About Area -->
       <div class="brook-about-area bg_color--1 ptb--120 ptb-md--80 ptb-sm--60">
         <div class="container">
           <div class="row align-items-center">
@@ -15,32 +18,22 @@
                   <h3 class="title">our story</h3>
                 </div>
                 <p class="font-size-18 wow move-up">
-                  Serving the local with over 10 years of experience, the
-                  restaurant offers our signatures, Mediterranean and European
-                  cuisines. Our simple philosophy: Delicious food, great value
-                  and excellent service to every customer.
+                  At <b>EngravedCase</b>, we are passionate about creating
+                  high-quality, customisable products that reflect your unique
+                  style and personality. Our journey began with a simple idea:
+                  <br />
+                  <br />
+                  <i>To provide customers with the ability to personalise their
+                  products with intricate engravings and designs.</i>
                 </p>
                 <div class="bkseparator--30"></div>
-
-                <div
-                  class="view-more-btn heding-color heading-font theme-color wow move-up"
-                >
-                  <nuxt-link
-                    to=""
-                    class="brook-btn bk-btn-theme btn-sd-size space-between"
-                    >Book A Table</nuxt-link
-                  >
-                </div>
               </div>
             </div>
             <div class="col-xl-7 col-lg-6 offset-xl-1 col-md-12">
               <div
                 class="about-thumb text-center text-lg-end mt_md--40 mt_sm--40"
               >
-                <img
-                  src="/img/restaurant/home-restaurant-about-image.jpg"
-                  alt="Multipurpose"
-                />
+                <img src="/img/others/our-studio.jpg" class="img-fluid rounded" alt="engravedcase about us" />
               </div>
             </div>
           </div>
@@ -60,15 +53,15 @@
                 <div class="inner">
                   <div class="icon">
                     <img
-                      src="/img/restaurant/home-restaurant-box-image-01.png"
-                      alt="Brook"
+                      src="/img/logo/quality.png"
+                      alt="engravedcase quality"
                     />
                   </div>
                   <div class="content">
-                    <h5 class="heading heading-h5">Quick Breakfast</h5>
+                    <h4 class="heading heading-h5">Quality</h4>
                     <p>
-                      Start the day with a full and balanced breakfast including
-                      local breakfast specialties.
+                      We are committed to providing the highest quality
+                      materials and service to our customers.
                     </p>
                   </div>
                 </div>
@@ -83,15 +76,15 @@
                 <div class="inner">
                   <div class="icon">
                     <img
-                      src="/img/restaurant/home-restaurant-box-image-02.png"
-                      alt="Brook"
+                      src="/img/logo/custom.png"
+                      alt="engravedcase customisable"
                     />
                   </div>
                   <div class="content">
-                    <h5 class="heading heading-h5">Healthy Dinner</h5>
+                    <h4 class="heading heading-h5">Customisable</h4>
                     <p>
-                      Enjoy your leisurely dinner and go home feeling full, and
-                      satisfied that you spent the night at such a great place.
+                      We understand that every customer has unique needs and
+                      preferences for their products.
                     </p>
                   </div>
                 </div>
@@ -106,15 +99,15 @@
                 <div class="inner">
                   <div class="icon">
                     <img
-                      src="/img/restaurant/home-restaurant-box-image-03.png"
-                      alt="Brook"
+                      src="/img/logo/premium.png"
+                      alt="engravedcase premium"
                     />
                   </div>
                   <div class="content">
-                    <h5 class="heading heading-h5">Innovative</h5>
+                    <h4 class="heading heading-h5">Premium</h4>
                     <p>
-                      We are creative and strive to connect new ideas with
-                      business realities
+                      Our products are crafted with the finest materials and
+                      attention to detail to ensure a premium.
                     </p>
                   </div>
                 </div>
@@ -132,9 +125,9 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="brook-section-title-restaurant text-center mb--50">
-                <h3 class="theme-color">Mediterranean</h3>
+                <h3 class="theme-color">Our Great</h3>
                 <div class="bkseparator--10"></div>
-                <h3 class="title">Cuisine</h3>
+                <h3 class="title">Products</h3>
               </div>
             </div>
           </div>
@@ -147,6 +140,8 @@
       </div>
       <!-- End Product Area -->
 
+      </div>
+      
       <FooterTwo class="pl-0 pr-0" />
     </div>
   </div>
